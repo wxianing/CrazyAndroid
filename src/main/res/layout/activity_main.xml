@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/tv"
+        android:text="www.baidu.com"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@drawable/bg_border"
+        android:autoLink="web" />
+
+    <EditText
+        android:hint="请输入密码……"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv"
+        android:background="@drawable/bg_border" />
+
+    <TextView
+        android:layout_alignParentBottom="true"
+        android:text="圆角边框、渐变背景的文本"
+        android:layout_width="match_parent"
+        android:textSize="24sp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_border2" />
+
+</RelativeLayout>
